@@ -1,0 +1,2 @@
+La API retorna el mismo código 200 aún cuando existe un error de registro o autenticación, esto debe ser revisado por el equipo de desarrollo y cambiado, para utilizar los códigos correctos.
+Se deben actualizar los tests una vez se hagan los cambios en el API 
