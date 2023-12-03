@@ -3,7 +3,8 @@ import { faker } from '@faker-js/faker';
 
 describe('sign up tests', () => {
 
-  const username = faker.internet.userName();
+  const username = faker.internet.userName(); //generates a random username using faker library
+
   it('should register the user successfuly', () => {
     cy.request({
       method: 'POST',
